@@ -1,0 +1,22 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.cjs
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+.vercel
