@@ -15,7 +15,7 @@ export function Hero() {
             transition={{ duration: 0.5 }}
             className="text-lg font-bold uppercase tracking-[0.35em] text-cyan-400 mb-4"
           >
-            Hi, I'm Butch
+            Hi, I'm Botch
           </motion.p>
           <motion.h1 initial={{opacity:0, x:-50}} whileInView={{opacity:1, x:0}} viewport={{ once: false }} transition={{duration:0.6}} className="h1 mb-5">
             I Build Enterprise Software with Care
