@@ -10,15 +10,6 @@ A modern, professional portfolio built with Next.js (App Router), TypeScript, Ta
 - Content-first sections (About, Projects, Experience, Skills, Contact)
 - AI Assistant powered by a Hugging Face Space (`butchai/portfolio-chatbot`) with the resume baked in
 
-## Getting Started
-
-```powershell
-# From the project root
-npm install
-# Optional overrides for the chatbot (defaults work out of the box)
-echo "HF_CHATBOT_URL=https://butchai-portfolio-chatbot.hf.space/run/predict" > .env.local
-npm run dev
-```
 
 Then open http://localhost:3000.
 
@@ -41,9 +32,6 @@ npm run start
 The assistant works without configuration because the public Space endpoint is hard-coded. You can override it if you fork/clone the Space:
 
 ```ini
-# Optional overrides
-HF_CHATBOT_URL=https://butchai-portfolio-chatbot.hf.space/run/predict
-```
 
 ## Deployment
 - Vercel (recommended): zero-config for Next.js
